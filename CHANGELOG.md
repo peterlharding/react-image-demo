@@ -9,6 +9,10 @@ Per-release detail lives in the [`release_notes/`](release_notes/) folder.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-09-19
+
+See [release_notes/0.2.0.md](release_notes/0.2.0.md) for details.
+
 ### Changed
 
 - Rewritten in TypeScript with strict type checking.
@@ -44,4 +48,5 @@ Per-release detail lives in the [`release_notes/`](release_notes/) folder.
 
 - The unused `react-crop` and `web-vitals` dependencies, and the `.jshint` configuration.
 
-[Unreleased]: https://github.com/peterlharding/react-image-demo/commits/main
+[Unreleased]: https://github.com/peterlharding/react-image-demo/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/peterlharding/react-image-demo/releases/tag/v0.2.0
