@@ -1,4 +1,37 @@
+
+
+# IDEs
+.vscode/
+.idea/
+
+# Archives
+*.7z
+*.gz
+*.rar
+*.tar
+*.tz
+*.zip
+
+# Sensitive
+*.pem
+*.crt
+*.csr
+*.key
+
+# macOS
+.DS_Store
+
+# Just Ignore
+*.x
+*-ignore
+.*.swp
+
+
+# -----------------------------------------------------------------------------
+# Node
+#
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# -----------------------------------------------------------------------------
 
 # dependencies
 /node_modules
@@ -10,10 +43,16 @@
 
 # production
 /build
+/dist
+
+# playwright
+/test-results
+/playwright-report
+/blob-report
+/playwright/.cache
 
 # Misc
-yarn.lock
-package-lock.json
+*.tsbuildinfo
 
 # Sensitive Data
 localization.js
@@ -21,12 +60,8 @@ localization.ts
 api-localization.js
 src/server/.env
 
-# IDE
-.idea/
-.vscode/
-
-# misc
-.DS_Store
+# Env Files
+.env
 .env.local
 .env.development.local
 .env.test.local
@@ -35,8 +70,4 @@ src/server/.env
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Ignore
-*.ignore
-*.x
 
